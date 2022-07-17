@@ -1,0 +1,74 @@
+@import url(main_mediaquery.css);
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 85px 20px 85px;
+    
+}
+
+.header .nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+.header .nav li > a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 15px ;
+    color: #FDFDFD;
+    
+}
+
+.footer {
+    display: flex;
+    background: #2E948A;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0px 50px 0px;
+
+}
+
+.footer li, .footer li > a  {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: lowercase;
+    padding: 0px 15px ;
+    color: #FDFDFD; 
+}
+
+.footer button {
+    border: 2px solid #FDFDFD;
+    box-sizing: border-box;
+    border-radius: 62px;
+    background-color: #2E948A;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 5%;
+}
+
+.footer button a {
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}

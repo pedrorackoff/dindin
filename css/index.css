@@ -1,35 +1,166 @@
 @import url(main.css);
+@import url(index_mediaquery.css);
 
-*{ 
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.header {
+.banner {
     display: flex;
-    background: #2E948A;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    padding: 50px 100px 25px 25px;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px 85px 20px 85px;
+    justify-content: space-evenly;
+    margin: 50px 100px;
 }
 
-.header .nav {
-    display: flex;
-    list-style: none;
-    
+.banner h1 {
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+color: #FF4081;
 }
 
-.header .nav li > a {
-    display: flex;
-    list-style: none;
+.banner h2 {
+font-weight: 400;
+font-size: 27px;
+line-height: 31px;
+color: #555555;
+padding: 20px 0px 20px;
+}
+
+.banner button {
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    background-color: #FDFDFD;
+    padding: 5px 5px 5px 5px;
+}
+
+.banner button a {
+    padding: 20px 10px 20px 10px;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 0px 15px ;
-    color: #FDFDFD;
+    color: #FF4081;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+.meio {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #F7F7F7;
+    
     
 }
+
+.meio img {
+    height: 270px;
+    object-fit:contain;
+    margin-top: 50px;
+    
+}
+
+.meio h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+    margin: 25px 0px 25px 0px;
+}
+
+.meio p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000;
+    margin: 25px;
+}
+
+.meio button {
+    background: #FF4081;
+    border-radius: 60px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid #FF4081;
+    margin-bottom: 20%;
+}
+
+.meio button a {
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 31px;
+    
+}
+
+.título-conteudo {
+    display: flex;
+    padding: 7.5% 15% 5% 15%;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    text-transform: uppercase;
+}
+
+.sobre-nos {
+    margin-bottom: 5%;
+}
+.sobre-nos .depoimentos {
+    display: inline-flex;
+    margin-left: 5%;
+    position: relative;
+    left: 10%;
+    align-items: center;
+
+}
+
+.depoimentos p {
+    align-items: center;
+    padding: 50px 128px 50px 100px;
+}
+
+.baixo {
+    background-color: #E5E5E5;
+}
+.baixo .conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2.5%;
+    margin-left: 5%;
+}
+
+.baixo h2 {
+    color: #009688
+}
+
+.baixo p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+}
+
+.baixo #btn-ver-posts {
+    margin-left: 50%;
+    
+    
+}
+.baixo div button {
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    background-color: #E5E5E5;
+    padding: 5px 5px 5px 5px; 
+    margin-bottom: 5%;
+    margin-left: -10%;
+}
+
+.baixo button a {
+    text-decoration: none;
+    color: #FF4081;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    padding: 20px 10px 20px 10px;
+
+}
+
+
