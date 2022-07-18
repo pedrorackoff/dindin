@@ -1,5 +1,4 @@
 @import url(main.css);
-@import url(index_mediaquery.css);
 
 .banner {
     display: flex;
@@ -106,9 +105,7 @@ padding: 20px 0px 20px;
 }
 .sobre-nos .depoimentos {
     display: inline-flex;
-    margin-left: 5%;
-    position: relative;
-    left: 10%;
+    margin-left: 15%;
     align-items: center;
 
 }
@@ -116,6 +113,9 @@ padding: 20px 0px 20px;
 .depoimentos p {
     align-items: center;
     padding: 50px 128px 50px 100px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .baixo {
@@ -163,4 +163,294 @@ padding: 20px 0px 20px;
 
 }
 
+@media  screen and (max-width:480px) {
 
+    .banner {
+        display: grid;
+        grid-template-columns: 150px 150px;
+        margin: 5% 0% 5% 0%;
+        padding: 0px 0px 0px 0px;
+    } 
+        .banner h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 39px;
+        color: #FF4081;
+        }
+        
+        .banner h2 {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        color: #555555;
+        padding: 10px 0px 10px;
+        }
+        
+        .banner button {
+            border: 2px solid #FF4081;
+            box-sizing: border-box;
+            border-radius: 62px;
+            background-color: #FDFDFD;
+            padding: 5px 5px 5px 5px;
+        }
+        
+        .banner button a {
+            padding: 20px 10px 20px 10px;
+            text-decoration: none;
+            color: #FF4081;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 20px;
+        }
+
+        .banner img {
+            width: 100%;
+        }
+
+        .meio {
+            display: grid;
+        }
+        .meio img {
+            height: 200px;
+            object-fit:contain;
+            margin-top: 30px;
+            
+        }
+        
+        .meio h2 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 20px;
+            color: #FF4081;
+            margin: 25px 0px 25px 0px;
+        }
+        
+        .meio p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 15px;
+            color: #000;
+            margin: 25px;
+        }
+        
+        .meio button {
+            background: #FF4081;
+            border-radius: 60px;
+            padding: 5px 5px 5px 5px;
+            border: 2px solid #FF4081;
+            margin-bottom: 20%;
+        }
+        
+        .meio button a {
+            padding: 20px 10px 20px 10px;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 31px;
+            
+        }
+        .título-conteudo {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 40px;
+            color: #009688;
+            text-transform: uppercase;
+        }
+
+        .sobre-nos .depoimentos {
+            display: grid;
+            grid-template-columns: 50px 300px;
+        
+        }
+
+        .depoimentos img {
+        width: 80px;
+        }
+        .depoimentos p {
+            align-items: center;
+            padding: 30px 20px 0px 50px;
+            font-size: 12px;
+        }
+
+        .baixo .conteudo {
+            display: grid;
+        
+        }
+
+        .baixo #btn-ver-posts {
+            margin-left: 30%;
+            
+            
+        }
+        .baixo div button {
+           
+            margin-bottom: 5%;
+            margin-left: 0%;
+        }
+        
+        .baixo button a {
+            text-decoration: none;
+            color: #FF4081;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            padding: 20px 10px 20px 10px;
+        
+        }
+}
+
+@media (min-width:481px) and (max-width: 840px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        margin: 5% 0% 5% 0%;
+        padding: 0px 0px 0px 0px;
+    }
+    .banner h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 39px;
+        color: #FF4081;
+        }
+        
+        .banner h2 {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        color: #555555;
+        padding: 10px 0px 10px;
+        }
+        
+        .banner button {
+            border: 2px solid #FF4081;
+            box-sizing: border-box;
+            border-radius: 62px;
+            background-color: #FDFDFD;
+            padding: 5px 5px 5px 5px;
+        }
+        
+        .banner button a {
+            padding: 20px 10px 20px 10px;
+            text-decoration: none;
+            color: #FF4081;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 20px;
+        }
+
+        .banner img {
+            width: 100%;
+        }
+
+        .meio {
+            align-items: center;
+        }
+        .meio img {
+            width: 200px;
+            height: 140px;
+            margin-top: 30px;
+            object-fit: contain;
+            
+        }
+        
+        .meio h2 {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 20px;
+            color: #FF4081;
+            margin: 25px 0px 25px 0px;
+        
+        }
+        
+        .meio p {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 15px;
+            color: #000;
+            margin: 25px;
+        
+        }
+        
+        .meio button {
+            background: #FF4081;
+            border-radius: 60px;
+            padding: 5px 5px 5px 5px;
+            border: 2px solid #FF4081;
+            margin-bottom: 20%;
+        }
+        
+        .meio button a {
+            padding: 20px 10px 20px 10px;
+            text-decoration: none;
+            color: #FFFFFF;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 31px;
+            
+        }
+        .título-conteudo {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 40px;
+            color: #009688;
+            text-transform: uppercase;
+        }
+
+        .sobre-nos .depoimentos {
+            display: grid;
+            grid-template-columns: 100px 500px;
+        
+        }
+
+        .depoimentos img {
+            width: 100%;
+        }
+        .depoimentos p {
+            align-items: center;
+            padding: 50px 28px 0px 70px;
+            font-size: 18px;
+        }
+
+        .baixo .conteudo {
+            display: grid;
+            grid-template-columns: 250px 250px 250px;
+        
+        }
+
+        .baixo h2 {
+            font-size: 22px
+        }
+        
+        .baixo .conteudo img {
+            width: 150px !important;
+        }
+        .baixo p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 0px 5% 0px 0%;
+        }
+
+        .baixo #btn-ver-posts {
+            margin-left: 40%;
+            
+            
+        }
+        .baixo div button {
+           
+            margin-bottom: 5%;
+            margin-left: 0%;
+        }
+        
+        .baixo button a {
+            text-decoration: none;
+            color: #FF4081;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+            padding: 20px 10px 20px 10px;
+        
+        }
+
+}

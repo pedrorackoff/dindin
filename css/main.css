@@ -1,11 +1,8 @@
-@import url(main_mediaquery.css);
-
 *{ 
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    width: 100%;
 }
 
 header {
@@ -24,7 +21,7 @@ header {
     
 }
 
-.header .nav li > a {
+.header .nav li a {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -71,4 +68,51 @@ header {
     font-weight: 400;
     font-size: 20px;
     line-height: 31px;
+}
+
+@media (max-width:480px) {
+    
+   
+    .header { flex-direction: column;
+        
+        
+
+    }
+
+    .header img {
+        height: 50%;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
+    .header .nav li a {
+        font-size: 15px;
+        padding: 0px 10px;
+        margin-left: 15%;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 20px 0px 20px 0px;
+    
+    }
+    
+    .footer li, .footer li > a  {
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        display: inline-flex;
+    }
+    .footer #logo-footer {
+        width: 75%;
+    }
+
+
+    .footer button a {
+        padding: 20px 10px 20px 10px;
+        text-decoration: none;
+        color: #FDFDFD;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+    }
 }
