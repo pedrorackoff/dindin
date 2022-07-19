@@ -1,0 +1,138 @@
+@import url(main.css);
+
+.banner {
+    display: flex;
+    background: #fff;
+
+    
+}
+
+article {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+}
+
+
+article div {
+    margin-left: 15%;
+    width: 30%;
+    
+}
+
+article iframe {
+    margin: 5% -10% 5% 15%
+}
+
+.banner img {
+    margin-left: 15%;
+}
+.banner h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 29px;
+    color: #FF4081;
+    margin: 25px 0px 25px 0px;
+}
+
+.banner p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 7.5%;
+}
+
+.meio {
+    background: #F7F7F7;
+}
+
+.meio h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 29px;
+    color: #FF4081;
+    margin-bottom: 15%;
+}
+
+.meio p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000;
+}
+hr{
+    border:20px, #C4C4C4;
+    margin-bottom: 2%;
+    margin:0% 10% 0% 10%;
+}
+
+@media (max-width:480px) {
+
+        .banner .investimento {
+            flex-direction: column;
+        }
+        
+        .banner h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 39px;
+        color: #FF4081;
+        }
+        
+        .banner p {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+        }
+
+        article.investimento div {
+            width: 80%;
+        }
+        .meio .video, .video div{
+            display: grid;
+            width: 90%;
+        }
+        .video iframe {
+            height: 150px !important;
+            width: 200px !important;
+        }
+
+        .meio h2 {
+            font-size: 25px;
+            line-height: 25px;
+            margin-bottom: 7.5%;
+
+        }
+        .meio p {
+            font-size: 15px;
+            margin-bottom: 3%;
+        }
+        
+    
+}
+
+@media (min-width:481px) and (max-width: 1024px) {
+
+    article.investimento div {
+        width: 80%;
+    }
+
+    .video iframe {
+        height: 200px !important;
+        width: 250px !important;
+    }
+
+    .meio h2 {
+        margin-top: 10%;
+        font-size: 30px;
+        line-height: 25px;
+        margin-bottom: 7.5%;
+
+    }
+    .meio p {
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+    
+}
