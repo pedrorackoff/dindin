@@ -1,0 +1,138 @@
+@import url(main.css);
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 50px 100px;
+}
+
+.banner div{
+    justify-content: center;
+    text-align: left;
+    margin: 0% 10% 0% 10%
+}
+.banner h1 {
+font-weight: 700;
+font-size: 60px;
+line-height: 69px;
+color:#009688;
+text-transform: uppercase;
+}
+
+.banner h3 {
+font-weight: 400;
+font-size: 27px;
+line-height: 31px;
+color: #555555;
+}
+
+.blog {
+    background-color: #E5E5E5;
+    padding: 5% 0% 5% 0%;
+}
+.blog .conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+
+}
+
+.blog div {
+    align-items: center;
+    padding: 3% 5% 3% 5%;
+}
+
+.blog h2 {
+    color: #FF4081;
+}
+
+.baixo p {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 31px;
+}
+
+@media (max-width: 480px) {
+
+    .banner {
+        display: grid;
+        margin: 5% 0%;
+        padding: 0px;
+    }
+
+    .banner h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color:#009688;
+        text-transform: uppercase;
+        }
+
+    .banner h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #555555;
+        }
+    .banner img {
+        width: 100%;
+    }
+
+    .blog .conteudo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+    
+    }
+
+    .blog .conteudo img {
+        width: 80%;
+    }
+    
+    .blog h2 {
+        color: #FF4081;
+        font-size: 25px;
+        line-height: 24px;
+
+    }
+    
+    .baixo p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width:481px) and (max-width: 1024px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 350px 250px;
+        align-items: center;
+    }
+    
+    .banner img {
+        width: 100%;
+    }
+
+    .banner h1 {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 30px;
+        color:#009688;
+        text-transform: uppercase;
+        }
+
+    .banner h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #555555;
+        }
+
+    .blog .conteudo {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+        
+        }
+}
