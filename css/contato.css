@@ -1,0 +1,101 @@
+@import url(main.css);
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formulario h1 {
+    margin-bottom: 10%;
+    font-size: 55px;
+    font-weight: 700;
+    color: #FF4081;
+}
+
+.formulario form div {
+    background: #FFFFFF;
+    
+}
+
+div.formulario {
+    width: 80%;
+    margin: 5% 5% 5% 15%;
+    
+}
+
+div.formulario input , textarea {
+    padding: 10px 10px 10px 10px;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+div.formulario #nome , div.formulario #email , div.formulario #msg {
+    margin-bottom: 2.5%;
+    padding: 2% 50% 10px 10px;
+}
+
+div.formulario #msg {
+    padding-bottom: 100px;
+}
+
+.formulario button {
+    background: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 50px ;
+    padding: 5px 20px 5px 20px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.imagem-forms {
+    margin-right: 20%;
+    margin-left: 5%;
+}
+
+@media (max-width:480px) {
+    main {
+        display: grid;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .formulario h1 {
+        margin-bottom: 10%;
+        font-size: 35px;
+        font-weight: 700;
+        color: #FF4081;
+    }
+
+    .imagem-forms {
+        width: 80%;
+    }
+    
+    div.formulario #nome , div.formulario #email , div.formulario #msg {
+        margin-bottom: 2.5%;
+        padding: 2% 30% 10px 10px;
+    }
+    
+    div.formulario #msg {
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .imagem-forms img {
+        width: 100%;
+        margin-left: 35%;
+    }
+    
+    main {
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+
+}
