@@ -51,4 +51,4 @@ Será desenvolvido um site estático. </p>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito por Alice Paixão 👋🏻 [Entre em contato!](https://www.linkedin.com/in/alicepaixao/)
+Feito por Pedro Rackoff 👋🏻 [Entre em contato!](https://www.linkedin.com/in/pedro-rackoff/)
