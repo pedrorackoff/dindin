@@ -1,4 +1,4 @@
-<p align="center"><img alt="Dindin" height="64" src="./img/logo-header.png"></p>
+<p align="center"><img alt="Dindin" height="64" src="./dindin-img/logo-header.png"></p>
 
 <h4 align="center">Educação Finaceira</h4>
 
