@@ -1,10 +1,10 @@
-<p align="center"><img alt="Dindin" height="64" src="./dindin-img/logo-header.png"></p>
+<p allign="center"><img alt="Dindin" height="64" src="./dindin-img/logo-header.png"></p>
 
-<h4 align="center">Educação Finaceira</h4>
+<h4 allign="center">Educação Finaceira</h4>
 
-  <p align="center">Desafio Hacker - Hands On  </p>
+  <p allign="center">Desafio Hacker - Hands On  </p>
 
-<p align="center">
+<p allign="center">
 
 
   <img alt="GitHub contagem de linguagens" src="https://img.shields.io/github/languages/count/alicepaixao/ProfileComponent?color=%2304D361&style=plastic">
@@ -33,7 +33,7 @@
 
 ## 📋 Enunciado
 
-<p align="left">   A empresa fictícia DINDIN, quer lançar uma plataforma de conteúdo sobre Educação Financeira.
+<p allign="left">   A empresa fictícia DINDIN, quer lançar uma plataforma de conteúdo sobre Educação Financeira.
 Será desenvolvido um site estático. </p>
 
 <hr>
